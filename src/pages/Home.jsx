@@ -30,7 +30,7 @@ function Home() {
             <Header />
             {/* End Header */}
             
-            <div className='flex felex-row'>
+            <div className='flex felex-row w-[1140px]'>
                 <div className='mt-[133px] ml-[146px]'>
                     <BusinessCard />
                 </div>
@@ -48,7 +48,7 @@ function Home() {
             </div>
 
             <div>
-                <div className='flex flex-row justify-between mt-[148px] ml-[148px]'>
+                <div className='flex flex-row justify-between mt-[148px] ml-[148px] w-[1140px]'>
                     <div>
                         <p className='font-urbanist font-normal text-4xl leading-[55px]' >Understanding the Mechanics</p>
                         <p className='font-urbanist font-extrabold text-[50px] leading-[55px]'>How It <span>Works</span></p>
@@ -57,7 +57,7 @@ function Home() {
                         <Btn btnText="Read More" btnWidth={146}/>
                     </div>
                 </div>
-                <div className='flex flex-row justify-between mt-[20px] ml-[148px]'>
+                <div className='flex flex-row justify-between mt-[20px] ml-[148px] w-[1140px]'>
                 {cardData.map((data,index) => {
                     return (
                         <MechanismCard
