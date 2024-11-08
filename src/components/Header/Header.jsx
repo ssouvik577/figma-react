@@ -5,7 +5,7 @@ import Btn from '../Button/Btn'
 function Header() {
 
     return (
-            <div className='flex flex-row justify-between'>
+            <div className='flex flex-row justify-between overflow-x-hidden'>
                 <div className='mt-[2.5rem] ml-[1.875rem] h-[6.87rem] w-[6.87rem]'>
                     <Logo height={110} width={110} />
                 </div>
@@ -21,7 +21,7 @@ function Header() {
                     </ul>
                 </div>
 
-                <div className='flex flex-row justify-between space-x-2 mt-[4.375rem] ml-[1.8125rem] w-[21rem] h-[3.125rem]'>
+                <div className='flex flex-row  mt-[4.375rem] ml-[1.8125rem] w-[21rem] h-[3.125rem]'>
                     <div>
                         <Btn btnText="Login" btnWidth={146} />
                     </div>

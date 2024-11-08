@@ -26,9 +26,9 @@ const cardData = [
 function Home() {
     return (
         <>
-        <div style={{ backgroundImage: `url(${bgImg})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover',backgroundPosition: 'center', position:"absolute"}}>
+        <div style={{ overflowX: 'hidden',backgroundImage: `url(${bgImg})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover',backgroundPosition: 'center', position:"absolute"}}>
 
-            <div className='w-[90rem]'>
+            <div  className=' max-w-[90rem]' >
                 <Header />
             </div>
 
@@ -36,7 +36,7 @@ function Home() {
                 <div className='mt-[8.3125rem] ml-[9.125rem]'>
                     <BusinessCard />
                 </div>
-                <div className='mt-[8.3125rem] ml-[6rem]'>
+                <div className='mt-[8.3125rem] ml-[4.5rem]'>
                     <BusinessCardImg />
                 </div>
             </div>
@@ -65,7 +65,7 @@ function Home() {
                     );
                 })}
             </div>
-            <div className='ml-[22.875rem] mt-[9.3125rem] max-h-[4.6875rem] w-[71.25rem]'>
+            <div className='ml-[22.875rem] mt-[9.3125rem] max-h-[4.6875rem]'>
                 <p className='font-urbanist font-extrabold text-[3.125rem] leading-[4.6875rem] text-nowrap'>Check Out These <span>Customers</span></p>
             </div>
             <div className='mt-[0.75rem] ml-[15.25rem] max-h-[2.6875rem] w-[59.0625rem]'>
